@@ -11,7 +11,6 @@ A automação foi desenvolvida para validar fluxos principais do app, como login
 - 📱 **Appium** — automação mobile para Android  
 - 🧪 **AppiumLibrary** — integração do Robot com Appium  
 - 💻 **Python 3.x** — linguagem base para execução  
-- 🔧 **ADB (Android Debug Bridge)** — comunicação com o dispositivo/emulador  
 - ⚙️ **Visual Studio Code** — IDE utilizada no desenvolvimento  
 
 ---
