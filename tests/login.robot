@@ -3,9 +3,13 @@ Documentation    Testes de Login
 
 Resource        ../resources/base.resource
 
-*** Test Cases ***
-Deve Logar com sucesso 
+Test Setup    Start Session
+Test Teardown    Finish Session  
 
-    Open Application    http://localhost:4723    platformName=Android    deviceName=Android Emulator   automationName=UIAutomator2   app=${EXECDIR}/app/yodapp-beta.apk    udid=emulator-5554    autoGrantPermissions=true 
-    
-    
+*** Test Cases ***
+Deve Logar com sucesso utilizando aplicação react native (não funciona ids)
+
+    Input Text    xpath=//*[@resource-id="apiIp"]    192.168.0.13
+    Click Element    xpath=//*[@resource-id="signInButton"] 
+    Wait Until Page Contains    Minhas tarefas    5
+    Sleep    1

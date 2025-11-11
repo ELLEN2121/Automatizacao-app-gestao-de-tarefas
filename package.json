@@ -1,0 +1,28 @@
+{
+  "name": "markx-robot",
+  "version": "1.0.0",
+  "description": "Projeto Node para que tenhamos appium local",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELLEN2121/Automatizacao-app-gestao-de-tarefas.git"
+  },
+  "author": "Ellen Caldas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELLEN2121/Automatizacao-app-gestao-de-tarefas/issues"
+  },
+  "homepage": "https://github.com/ELLEN2121/Automatizacao-app-gestao-de-tarefas#readme",
+  "dependencies": {
+    "appium": "^3.1.0"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^6.1.1"
+  }
+}
