@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Antes de começar qualquer caso, valide aqui 
 Library          AppiumLibrary
-
+Resource    screens/login.resource
 
 *** Keywords ***
 Start Session 

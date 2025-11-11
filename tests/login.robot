@@ -8,8 +8,5 @@ Test Teardown    Finish Session
 
 *** Test Cases ***
 Deve Logar com sucesso utilizando aplicação react native (não funciona ids)
-
-    Input Text    xpath=//*[@resource-id="apiIp"]    192.168.0.13
-    Click Element    xpath=//*[@resource-id="signInButton"] 
-    Wait Until Page Contains    Minhas tarefas    5
+    Do Login
     Sleep    1
